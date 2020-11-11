@@ -1,0 +1,70 @@
+{
+
+   "terminal.integrated.fontSize": 13,
+
+   "workbench.colorTheme": "Dracula",
+   "workbench.iconTheme": "material-icon-theme",
+   "workbench.editor.labelFormat": "short",
+   "workbench.startupEditor": "newUntitledFile",
+
+   "extensions.ignoreRecommendations": true,
+   
+   "breadcrumbs.enabled": true,
+
+   "editor.parameterHints.enabled": false,
+   "editor.semanticHighlighting.enabled": false,
+   "editor.fontFamily": "'Cascadia Code', 'monospace', monospace, 'Droid Sans Fal",
+   "editor.fontLigatures": true,
+   "editor.tabSize": 3,
+   // "editor.fontSize": 13,
+   "editor.formatOnType": true,
+   "editor.fontSize": 14,
+   "editor.lineHeight": 26,
+   "editor.renderLineHighlight": "gutter",
+   "editor.rulers": [80, 120],
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+   },
+
+   "emmet.syntaxProfiles": { "javascript": "jsx" },
+   "emmet.includeLanguages": { "javascript": "javascriptreact" },
+   
+   "explorer.compactFolders": false,
+   "explorer.confirmDragAndDrop": false,
+   "explorer.confirmDelete": false,
+
+   "window.zoomLevel": 0,
+   "window.menuBarVisibility": "toggle",
+   
+   "diffEditor.codeLens": true,
+
+   "tabnine.experimentalAutoImports": true,
+   
+   "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "node_modules": true
+   },
+
+   "files.associations": {
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      ".prettierrc": "json"
+   },
+
+   "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+
+   "javascript.updateImportsOnFileMove.enabled": "always",
+   "typescript.updateImportsOnFileMove.enabled": "never",
+
+   "typescript.tsserver.log": "verbose",
+   "javascript.suggest.autoImports": true,
+   "typescript.suggest.autoImports": true,
+   "screencastMode.onlyKeyboardShortcuts": true,
+
+}
